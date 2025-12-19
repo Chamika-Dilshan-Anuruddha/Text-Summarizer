@@ -12,4 +12,8 @@ boto3
 sacrebleu
 rouge_score
 Jinja2
+datasets
+py7zr
+tqdm
+mypy-boto3-s3
 -e .
