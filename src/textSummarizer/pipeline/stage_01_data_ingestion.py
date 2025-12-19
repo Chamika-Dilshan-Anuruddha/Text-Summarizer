@@ -22,6 +22,6 @@ if __name__=="__main__":
         logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
         obj=DataIngestionPipeline()
         obj.main()
-        logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<")
+        logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\n\n")
     except Exception as e:
         raise e
