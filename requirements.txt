@@ -1,0 +1,15 @@
+pandas
+python-box
+transformers
+transformers[sentencepiece]
+torch
+pyyaml
+matplotlib
+fastapi
+uvicorn
+nltk
+boto3
+sacrebleu
+rouge_score
+Jinja2
+-e .
