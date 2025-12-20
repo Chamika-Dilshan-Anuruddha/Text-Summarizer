@@ -17,7 +17,7 @@ class DataIgestion:
             )
             logger.info(f"{filename} downloaded! with following info: {headers}")
         else:
-            logger.infor(f"File already exists of size: {get_size(self.config.local_data_file)}")
+            logger.info(f"File already exists of size: {get_size(self.config.local_data_file)}")
 
     def extract_zip_file(self):
         unzip_path=self.config.unzip_dir
