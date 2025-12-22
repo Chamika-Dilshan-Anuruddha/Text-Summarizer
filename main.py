@@ -7,48 +7,48 @@ from textSummarizer.pipeline.stage_05_model_evaluation import ModelEvaluationPip
 from textSummarizer.logging import logger
 
 
-STAGE_NAME="Data Ingestion"
+# STAGE_NAME="Data Ingestion"
 
-try:
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
-    obj=DataIngestionPipeline()
-    obj.main()
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\n\n")
-except Exception as e:
-    raise e
+# try:
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
+#     obj=DataIngestionPipeline()
+#     obj.main()
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\n\n")
+# except Exception as e:
+#     raise e
 
 
-STAGE_NAME="Data Validation"
+# STAGE_NAME="Data Validation"
 
-try:
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
-    obj=DataValidationPipeline()
-    obj.main()
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\n\n")
-except Exception as e:
-    raise e
+# try:
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
+#     obj=DataValidationPipeline()
+#     obj.main()
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\n\n")
+# except Exception as e:
+#     raise e
     
 
-STAGE_NAME="Data Transformation"
+# STAGE_NAME="Data Transformation"
 
-try:
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
-    obj=DataTransformationPipeline()
-    obj.main()
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\\n\n")
-except Exception as e:
-    raise e
+# try:
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
+#     obj=DataTransformationPipeline()
+#     obj.main()
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\\n\n")
+# except Exception as e:
+#     raise e
 
 
-STAGE_NAME="Model Trainer"
+# STAGE_NAME="Model Trainer"
 
-try:
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
-    obj=ModelTrainerPipeline()
-    obj.main()
-    logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\n\n")
-except Exception as e:
-    raise e
+# try:
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} started <<<<<<<<<<")
+#     obj=ModelTrainerPipeline()
+#     obj.main()
+#     logger.info(f">>>>>>>>>> stage: {STAGE_NAME} completed <<<<<<<<<<\n\n")
+# except Exception as e:
+#     raise e
 
 
 STAGE_NAME="Model Evaluation"
